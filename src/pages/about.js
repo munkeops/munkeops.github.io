@@ -14,17 +14,20 @@ function About(){
                 <div className="Bio">
                     <div className="ImageBio"></div>
                     <div className="BioData">
-                        <br/>
+                        {/* <br/>
                         Hey, my name's Rohan Nedungadi<br/>
+                        <br/> */}
                         <br/>
+                        <br/>
+                        Jr Machine Learning Engineer @ GuiseAI<br/><br/><br/>
                         Computer Science Undergraduate<br/> 
                         Ecole Centrale School of Engineering<br/>
                         Mahindra University<br/>
-                        MEC batch of 2021<br/>
+                        {/* MEC batch of 2021<br/> */}
                         {/* <br/> */}
                         <br/>
                         <br/>
-                        Machine Learning | Systems | Web
+                        Machine Learning | Computer Vision | Webdev
                         {/* <img src="https://img.icons8.com/cotton/64/000000/circled-chevron-down.png"/> */}
 
 
@@ -33,7 +36,7 @@ function About(){
                 </div>
                 <div>
                 </div>
-                <PostsForAbout/>
+                {/* <PostsForAbout/> */}
                 
 
             

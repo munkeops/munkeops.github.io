@@ -58,11 +58,18 @@
     
 }
 .Navigation>div{
-    width: 20%;
+    width: 15%;
     margin: auto;
     margin-bottom: 30px;
+    font-weight: 700;
+    height:30px;
+    /* font-size: 25; */
     /* border-left: solid;
     border-right: solid; */
+    /* border:; */
+    background-color:rgba(0, 0, 0, 0.384);
+    border-radius: 5px;
+    padding-top:5px;
 }
 
 
@@ -75,6 +82,7 @@
     .Navigation{
         flex-direction: column;
         margin-top: 20px;
+
         
     }
 
@@ -83,9 +91,11 @@
         /* background-color: black; */
         border-radius: 5px;
         /* opacity: 0.7; */
-        width: 70%;
+        width: 30%;
         height:30px;
-        font-size: large;        
+        font-size: large;  
+        padding-top:0px;
+
     }
     .CentralBox{
         position: relative;

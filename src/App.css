@@ -20,11 +20,21 @@ a:hover {
 }
 body,html{
   height: 100%;
-  background-image: url("./images/myappbg.gif");
+  /* background-image: url("./images/myappbg.gif"); */
+  /* background-image: url("https://wallpapertops.com/walldb/original/a/f/9/426669.jpg"); */
+  /* background-image: url("https://wallpaper.dog/large/5506663.png"); */
+  /* background-image: url("https://cdn.wallpapersafari.com/49/77/6NsYjb.jpg"); */
+
+  background-image: url("./images/5506663_2_2.png");
+
+  
+
+
   /* background-color: lightblue; */
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  /* background-position: center center; */
 
 }
 #root{
@@ -64,7 +74,10 @@ body,html{
 
   body,html{
     height: 100%;
-    background-image: url("./images/myappbg.gif");
+    /* background-image: url("./images/myappbg.gif"); */
+    /* background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F3.bp.blogspot.com%2F-pYoWQio9bQk%2FUD8CR0X-dCI%2FAAAAAAAAKaM%2FkaCFtnuC8ak%2Fs1600%2FBest_Naruto_Wallpapers.jpg&f=1&nofb=1"); */
+    /* background-image: url("https://3.bp.blogspot.com/-pYoWQio9bQk/UD8CR0X-dCI/AAAAAAAAKaM/kaCFtnuC8ak/s1600/Best_Naruto_Wallpapers.jpg"); */
+
     /* background-color: lightblue; */
     background-repeat: repeat;
     /* background-attachment: fixed; */
