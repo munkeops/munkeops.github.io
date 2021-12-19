@@ -22,6 +22,18 @@
     font-size: 30px; 
 
 }
+/* .LinksImgs{
+    height: 10px;
+    width: 10px;
+} */
+
+.Links>a{
+    margin-right: 10px;
+}
+.Links>a>img{
+    height: 40px; 
+    width: 40px;
+}
 
 .Project{
     display: flex;
@@ -63,7 +75,8 @@
 .ProjectItem{
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     margin-left: 18%;
     margin-right: 18%;
     padding-top: 30px;
@@ -86,7 +99,7 @@
 
     /* color: rgb(85, 32, 32); */
 
-    height:250px;
+    height:300px;
     border-left: solid;
     padding-left: 20px;
     margin-left:80px;
@@ -99,21 +112,28 @@
 @media screen and (max-width: 1500px){
     .ProjectItem{
         flex-direction: column;
-        margin:auto;
-        margin-top: 40px;
-        width: 100%;
+        margin:0px;
+        margin-top: 20px;
+        /* margin-left: -100px; */
+        width: auto;
+        padding: 0px ;
+        height: 800px;
     }
     .ProjectData{
         border-left: none;
         /* margin:auto; */
         text-align: center;
-        width: 100%;
-        margin-left: -20px;
+        
+        width: auto;
+        margin: auto;
+        margin-top: -50px;
+        padding: auto;
+        /* margin-bottom: 10px; */
         
         
     }
     .ProjectBody{
-        width: 100%;
+        width: auto;
     }
     .ProjectImage{
         /* text-align: center; */
