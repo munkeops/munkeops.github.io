@@ -1,0 +1,126 @@
+
+.Current{
+    font-family: 'Times New Roman', Times, serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    justify-content: center;
+
+    /* color: whitesmoke; */
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+    /* color: whitesmoke; */
+
+    /* color: rgb(85, 32, 32); */
+
+    /* height:300px;
+    border-left: solid;
+    padding-left: 30px;
+    margin-left: 50px;
+    width:500px;
+    /* text-align: left; */
+    font-weight: 1000; 
+    font-size: 30px; 
+
+}
+
+.Project{
+    display: flex;
+    flex-direction: column;
+}
+
+.ProjectBody{
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+}
+
+
+.ProjectBody>h1{
+    /* color: whitesmoke; */
+    color: rgb(85, 32, 32);
+
+    font-family: 'Times New Roman', Times, serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    justify-content: center;
+        /* text-align: left; */
+
+}
+
+/*  */
+
+.ProjectImage{
+    /* background-image: url("https://munkeops.github.io/Blogs/assets/images/contactbook.png"); */
+    height:250px;
+    width:250px;
+    border-radius: 5%;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    /* box-shadow: 0 0 15px 6px black; with blur shadow */
+    /* margin-right: 20px; */
+    /* padding-right: 50px; */
+}
+.ProjectItem{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 18%;
+    margin-right: 18%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 100px;
+    border-radius: 10px;
+
+
+    /* margin-bottom: 50px; */
+    /* height: 80vh; */
+    background: rgba(0, 0, 0, 0.8);
+
+
+    
+}
+
+.ProjectData{
+    color: whitesmoke;
+    /* color: whitesmoke; */
+
+    /* color: rgb(85, 32, 32); */
+
+    height:250px;
+    border-left: solid;
+    padding-left: 20px;
+    margin-left:80px;
+    width:500px;
+    text-align: left;
+    /* font-weight: 1000; */
+    /* font-size: 16px; */
+}
+
+@media screen and (max-width: 1500px){
+    .ProjectItem{
+        flex-direction: column;
+        margin:auto;
+        margin-top: 40px;
+        width: 100%;
+    }
+    .ProjectData{
+        border-left: none;
+        /* margin:auto; */
+        text-align: center;
+        width: 100%;
+        margin-left: -20px;
+        
+        
+    }
+    .ProjectBody{
+        width: 100%;
+    }
+    .ProjectImage{
+        /* text-align: center; */
+        margin: auto;
+        /* width: 50px; */
+        /* width: 100%; */
+        /* margin-left: 20px; */
+    }
+
+}

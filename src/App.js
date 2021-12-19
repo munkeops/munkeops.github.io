@@ -6,6 +6,8 @@ import Home from './pages/home.js'
 // import Blogs from './pages/blogs.js'
 // import Admin from './auth/admin'
 import About from './pages/about'
+import Projects from './pages/projects'
+
 import {
   BrowserRouter as Router,
   // Switch,
@@ -32,6 +34,7 @@ function App() {
             {/* <Route exact path='/projects'><Blogs section="travel"/></Route> */}
             {/* <Route exact path='/movies'><Blogs section="travel"/></Route> */}
 
+            <Route exact path='/projects'><Projects/></Route>
 
             <Route exact path='/about'><About/></Route>
             {/* <Route exact path='/admin'><Admin posts={posts} setPosts={setPosts}/></Route> */}

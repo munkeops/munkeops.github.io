@@ -16,7 +16,9 @@ function Navbar(){
                 {/* <div><Link to="/projects">Projects</Link></div> */}
                 {/* <div><Link to="/blogs">Blogs</Link></div> */}
                 <div><a href="https://munkeops.github.io/Blogs/" target="_blank">Blogs</a></div>
-                <div><Link to="/about">About</Link></div>
+                <div><Link to="/projects">Projects</Link></div>
+                {/* <div><Link to="/about">About</Link></div> */}
+
 
             </div>
         </div>
