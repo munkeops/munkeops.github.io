@@ -1,9 +1,23 @@
 
+
+.link{
+    color: tomato;
+    text-decoration: none;
+}
+
+.link:hover{
+    color: tomato;
+    text-decoration: none;
+}
+
 .Navbar{
     display: flex;
     /* border:solid; */
     position: sticky;
     background-color: black;
+    padding-top: 12px;
+    padding-bottom: 12px;
+
     /* height:100px; */
     /* margin: auto; */
     /* padding-left: 30%; */
@@ -30,12 +44,16 @@
     width: 20%;
     /* color: black !important; */
     /* border-color: tomato; */
+    color: tomato;
+    text-decoration: none;
 }
 .HeadingSmall{
     
     display: None;
     /* color: black !important; */
     /* border-color: tomato; */
+    color: tomato;
+    text-decoration: none;
 }
 
 @media screen and (max-width: 800px){

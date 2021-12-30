@@ -1,3 +1,38 @@
+.ToggleButtons{
+    width: 220px;
+    height: 50px;
+    margin: auto;
+    background-color: coral;
+    border-width: 0px;
+    box-shadow: black;
+    /* margin-right: 5px;  */
+    /* margin-left: 5px; */ 
+
+    
+}
+
+.ToggleButtonsClicked{
+    width: 220px;
+    height: 50px;
+    margin: auto;
+    background-color: tomato;
+    border-width: 0px;
+    /* margin-right: 5px; */
+    /* margin-left: 5px; */
+
+}
+
+.ButtonHandler{
+    display: flex;
+    /* flex-direction: column; */
+    padding-left: 15%;
+    padding-right: 15%;
+    /* margin-left: 18%; */
+    /* margin-right: 18%; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
 
 .Current{
     font-family: 'Times New Roman', Times, serif;
@@ -117,7 +152,9 @@
         /* margin-left: -100px; */
         width: auto;
         padding: 0px ;
-        height: 800px;
+        height: 900px;
+        border-radius: 0px;
+
     }
     .ProjectData{
         border-left: none;
@@ -141,6 +178,14 @@
         /* width: 50px; */
         /* width: 100%; */
         /* margin-left: 20px; */
+    }
+
+    .ButtonHandler{
+        display: flex;
+        padding-left: 5%;
+        padding-right: 5%;
+        margin-top: 10px;
+        margin-bottom: 5px;
     }
 
 }

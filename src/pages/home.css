@@ -2,6 +2,7 @@
 #root {
     height: 100vh;
   }
+
 .Home{
     width: 100%;
     height:100vh;
@@ -65,12 +66,19 @@
 }
 
 .Navigation{
-    display: flex;
-    flex-wrap: wrap;
+    display: inline-flex;
+    margin: auto;
+    /* flex-wrap: wrap; */
     
 }
 .Navigation>div{
-    width: 15%;
+    /* width: 15%; */
+    width: auto;
+    margin: auto;
+    /* padding-left:5px; */
+    /* padding-right:5px; */
+
+
     margin: auto;
     margin-bottom: 30px;
     font-weight: 700;
@@ -79,9 +87,9 @@
     /* border-left: solid;
     border-right: solid; */
     /* border:; */
-    background-color:rgba(0, 0, 0, 0.651);
-    border-radius: 5px;
-    padding-top:5px;
+    /* background-color:rgba(0, 0, 0, 0.651); */
+    /* border-radius: 5px; */
+    /* padding-top:5px; */
 }
 
 
@@ -92,21 +100,20 @@
         height: 100%;
     }
     .Navigation{
-        flex-direction: column;
+        flex-direction: row;
         margin-top: 20px;
-
         
     }
 
     .Navigation>div{
         /* border:solid; */
         /* background-color: black; */
-        border-radius: 5px;
+        /* border-radius: 5px; */
         /* opacity: 0.7; */
-        width: 30%;
-        height:30px;
-        font-size: large;  
-        padding-top:0px;
+        /* width: 30%; */
+        /* height:30px; */
+        /* font-size: large;   */
+        /* padding-top:2px; */
 
     }
     .CentralBox{

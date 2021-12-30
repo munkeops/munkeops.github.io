@@ -6,7 +6,8 @@ import Home from './pages/home.js'
 // import Blogs from './pages/blogs.js'
 // import Admin from './auth/admin'
 import About from './pages/about'
-import Projects from './pages/projects'
+import Projects from './pages/project-dev'
+import CustomTab from './components/customtab'
 
 import {
   BrowserRouter as Router,
@@ -27,7 +28,7 @@ function App() {
     
     <Router > 
             <Route exact path='/'><Home/></Route>
-            <Route exact path='/home'><Home/></Route>
+            {/* <Route exact path='/'><Home/></Route> */}
 
             {/* <Route exact path='/blogs'><Blogs posts={posts} setPosts={setPosts}/></Route> */}
             {/* <Route exact path='/travel'><Blogs section="travel"/></Route> */}

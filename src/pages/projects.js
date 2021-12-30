@@ -13,6 +13,13 @@ import hack3 from "../images/ml3.jpg";
 import ise1 from "../images/ise1.jpg";
 import ise2 from "../images/ise2.jpg";
 
+import wsn1 from "../images/wsn1.jpg";
+import wsn2 from "../images/wsn2.jpg";
+
+import dcf1 from "../images/dcf1.jpg";
+import dcf2 from "../images/dcf2.jpg";
+
+
 
 
 
@@ -50,6 +57,17 @@ const P2={
 
 }
 
+const WSN={
+    colors: [wsn1,wsn2],
+    delay : 3000
+
+}
+
+const DCF={
+    colors: [dcf1,dcf2],
+    delay : 3100
+
+}
 
 
 function Projects(){
@@ -202,6 +220,52 @@ function Projects(){
 
                     </div>
                     <div className="ProjectItem">
+                        {/* <div className="ProjectImage" style={{"background-image": `url(${cb1})`}}></div> */}
+                        <Slideshow data={DCF}/>
+                        <div className="ProjectData">
+                            {/* <br/>
+                            Hey, my name's Rohan Nedungadi<br/>
+                            <br/> */}
+                            {/* <br/> */}
+                            <br/>
+                            <b>Distributed Compute Fabric</b><br/>
+                            <i>Hackathon</i><br/> 
+                            2020<br/>
+                            E-Summit Startup Hackathon, Entrepreneurship Cell of Mahindra Ecole Centrale<br/>
+                            {/* MEC batch of 2021<br/> */}
+                            {/* <br/> */}
+                            <br/>
+                            {/* <br/> */}
+                            Distributed compute services on mobile phones with RESTful APIs.
+                            <br/><br/>
+                            <i>Currently Not Maintained</i>
+                            <br/><br/>
+
+                            <div className='Links'>
+                            <a target='_blank' href='https://github.com/munkeops/ContactBook'>
+                                {/* <img src="https://img.icons8.com/material-rounded/384/000000/github.png"/> */}
+                                {/* <img src="https://img.icons8.com/wired/64/000000/github.png"/> */}
+                                {/* <img src="https://img.icons8.com/cute-clipart/64/000000/github.png"/> */}
+                                <img src="https://img.icons8.com/stickers/500/000000/github.png"/>
+                                {/* <img src="https://img.icons8.com/plasticine/400/000000/github.png"/> */}
+                            </a>
+                            <a target='_blank' href='https://contact-book-rn.herokuapp.com/'>
+                                {/* <img classname="LinksImgs" src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/96/000000/external-maximizing-pop-up-window-box-under-web-page-builder-landing-shadow-tal-revivo.png"/> */}
+                                {/* <img src="https://img.icons8.com/material-outlined/96/000000/domain.png"/> */}
+                                {/* <img src="https://img.icons8.com/ios-filled/100/000000/domain.png"/> */}
+                                {/* <img src="https://img.icons8.com/fluency/96/000000/domain.png"/> */}
+                                <img src="https://img.icons8.com/bubbles/100/000000/domain.png"/>
+                            </a>
+
+                            </div>
+
+                            {/* <img src="https://img.icons8.com/cotton/64/000000/circled-chevron-down.png"/> */}
+
+
+                        </div>
+
+                    </div>
+                    <div className="ProjectItem">
                         {/* <div className="ProjectImage" style={{"background-image": `url(${background})`}}></div> */}
                         
                         <Slideshow data={DELLAIML}/>
@@ -243,6 +307,45 @@ function Projects(){
 
 
                         </div>
+
+                    </div>
+                    <div className="ProjectItem">
+                        {/* <div className="ProjectImage" style={{"background-image": "url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.RbAsNTn5u4VuhBWbis6KJgHaEK%26pid%3DApi&f=1')"}}></div> */}
+                        <Slideshow data={WSN}/>
+                        <div className="ProjectData">
+                            {/* <br/>
+                            Hey, my name's Rohan Nedungadi<br/>
+                            <br/> */}
+                            {/* <br/> */}
+                            <br/>
+                            <b>An Analysis of Power Dissipation of Compression Techniques per Unit Computation and Unit Transmission in Cluster Heads of Wireless Sensor Networks</b><br/>
+                            {/* (Classical Image Processing and DL Techniques in image tagging and retrieval) */}
+                            <br/>
+                            <i>Thesis/Study</i><br/> 
+                            2020<br/>
+                            Mahindra Ecole Centrale - Third Year Thesis<br/>
+                            {/* MEC batch of 2021<br/> */}
+                            {/* <br/> */}
+                            <br/>
+                            <br/>
+                            Thesis report and project on analysing the use of compression techniques to reduce power utilization in resource contrainst wsns.
+                            <br/><br/><br/>
+                            <div className='Links'>
+                            {/* <a target='_blank' href='https://github.com/munkeops'>
+                                <img src="https://img.icons8.com/stickers/500/000000/github.png"/>
+                            </a> */}
+                            {/* <a target='_blank' href='https://github.com/munkeops'>
+                                <img src="https://img.icons8.com/bubbles/100/000000/domain.png"/>
+                            </a> */}
+                            <a target='_blank' href='https://github.com/munkeops/Third-Year-Thesis/blob/main/An%20Analysis%20of%20Power%20Dissipation%20of%20Compression%20Techniques%20per%20Unit%20Computation%20and%20Unit%20Transmission%20in%20Cluster%20Heads%20of%20Wireless%20Sensor%20Networks.pdf'>
+                            <img src="https://img.icons8.com/bubbles/500/000000/document.png"/>
+                            </a>
+                            </div>
+
+
+                        </div>
+                        <br/>
+
 
                     </div>
                     {/* <div className="ProjectItem">
