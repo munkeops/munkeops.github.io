@@ -105,8 +105,8 @@ const allinfo2=[
         git: true,
         web: true,
         doc: false,
-        weblink: "https://poke2se.herokuapp.com",
-        gitlink: "https://github.com/munkeops/Poke2",
+        weblink: "https://contact-book-rn.herokuapp.com/",
+        gitlink: "https://github.com/munkeops/ContactBook",
         images: {
             colors: [cb1,cb2],
             delay : 2900
