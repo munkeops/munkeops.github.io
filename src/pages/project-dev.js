@@ -22,6 +22,12 @@ import hack1 from "../images/white-Flow_main.png";
 import hack2 from "../images/ml2.jpg";
 import hack3 from "../images/ml3.jpg";
 
+import hci1 from "../images/hci1.png";
+import hci2 from "../images/hci2.png";
+import hci3 from "../images/hci3.png";
+import hci4 from "../images/hci4.jpg";
+
+
 import ise1 from "../images/ise1.jpg";
 import ise2 from "../images/ise2.jpg";
 import ise3 from "../images/ise3.jpg";
@@ -59,6 +65,7 @@ import { useState,useEffect} from "react";
 
 
 const allinfo2=[
+    
     {
                 
         title: "Image Search Engine (Classical Image Processing and DL Techniques in image tagging and retrieval) ",
@@ -201,6 +208,24 @@ const projectsinfo=[
     },]
 
 const thesisinfo=[
+        {
+                    
+            title: "Intuitive Interaction Methods for Smart Glasses: An Eye tracking Based Solution",
+            type: "Thesis",
+            year: "2022",
+            loc: "University of Illinois Urbana Champaign",
+            detail: "Research-Paper on the usage of eye tracking for HCI in the XR space",
+            maintain_status: "Unofficial Copy",
+            git: false,
+            web: false,
+            doc: true,
+            doclink: "https://github.com/munkeops/Intuitive-Interaction-Methods-for-Smart-Glasses-An-Eye-tracking-Based-Solution/blob/main/Intuitive%20Interaction%20Methods%20for%20Smart%20Glasses-An%20Eye-tracking%20Based%20Solution.pdf",
+            images: {
+                colors :[hci4, hci1, hci2, hci3],
+                delay : 2900,
+            },
+
+        },
         {
                     
             title: "Image Search Engine (Classical Image Processing and DL Techniques in image tagging and retrieval) ",
@@ -374,22 +399,22 @@ function RadioToggleButton({flags,setflag}){
                 })} >
                 All
                 </Button>
-                <Button className = {btn_class_projects} 
-                 onClick={()=>setflag({
-                    "all":false,
-                    "hack":false,
-                    "thesis":false,
-                    "projects":true
-                })}
-                >Projects</Button>
                 <Button className = {btn_class_thesis} 
-                onClick={()=>setflag({
+                 onClick={()=>setflag({
                     "all":false,
                     "hack":false,
                     "thesis":true,
                     "projects":false
+                })}
+                >Research</Button>
+                <Button className = {btn_class_projects} 
+                onClick={()=>setflag({
+                    "all":false,
+                    "hack":false,
+                    "thesis":false,
+                    "projects":true
                 })} >
-                    Studies</Button>
+                    Projects</Button>
 
                 
                 <Button className ={btn_class_hack} 

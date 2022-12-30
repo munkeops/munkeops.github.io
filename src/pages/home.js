@@ -13,7 +13,9 @@ function Home(){
             <Navbar/>
             <div className="CentralBox">
                 <div className="Image"/>
-                <div className="Name"><h3>Machine Learning | Web-Dev | DevOps </h3></div>
+                {/* <div className="Name"><h3>Machine Learning | Web-Dev | DevOps </h3></div> */}
+                <div className="Name"><h3>CS Grad at University of Illinois Urbana Champaign </h3></div>
+
                 <div className="Navigation">
                     {/* <div><Link to="/travel">Travel Diary</Link></div>
                     <div><Link to="/movies">Movie Discussions</Link></div>
@@ -32,7 +34,7 @@ function Home(){
 
                     {/* <div><Link to="/About">About</Link></div> */}
                     
-                    <div><a href="https://github.com/munkeops/Resume/blob/main/Resume.pdf" target="_blank"  className='link'><img src="https://img.icons8.com/bubbles/50/000000/resume.png"/></a></div>
+                    <div><a href="https://github.com/munkeops/Resume/blob/main/Resume_dec23.pdf" target="_blank"  className='link'><img src="https://img.icons8.com/bubbles/50/000000/resume.png"/></a></div>
 
                     {/* <div><a href="https://github.com/munkeops/Resume/blob/main/Resume.pdf" target="_blank"  className='link'>Resume</a></div> */}
 
