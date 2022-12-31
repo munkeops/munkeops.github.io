@@ -188,4 +188,29 @@
         margin-bottom: 5px;
     }
 
+    .ToggleButtons{
+        width: 220px;
+        height: 50px;
+        margin: auto;
+        background-color: coral;
+        border-width: 0px;
+        box-shadow: black;
+        margin-right: 5px; 
+        /* margin-left: 5px; */ 
+    
+        
+    }
+
+
+.ToggleButtonsClicked{
+    width: 220px;
+    height: 50px;
+    margin: auto;
+    background-color: tomato;
+    border-width: 0px;
+    margin-right: 5px;
+    /* margin-left: 5px; */
+
+}
+
 }

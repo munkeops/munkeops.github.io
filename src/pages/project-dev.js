@@ -52,6 +52,17 @@ import pk2 from "../images/pk2.jpg";
 import cb2 from "../images/cb2.jpg";
 import cb3 from "../images/cb3.jpg";
 
+import navisense from "../images/navisense.jpg"
+import gw from "../images/guiseaiweb.jpg"
+
+import guise from "../images/guise.png"
+
+import yf from "../images/yummy_future.png"
+import yfw from "../images/yummyweb.jpg"
+import y2 from "../images/yummy2.jpg"
+
+
+
 
 import Slideshow from "../components/slider"
 
@@ -299,6 +310,43 @@ const hackathoninfo=[
     },
    ]
 
+const expinfo=[
+    {
+        title: "Yummy Future Inc.",
+        type: "Software Engineer",
+        year: "Sept 2022 - present",
+        loc: "Champaign Illinois, USA",
+        detail: "Designing the central command center to interact and communicate with each smart station",
+        maintain_status: "Robotics, Software",
+        git: false,
+        web: true,
+        weblink: "https://www.yummy-future.com/",
+        doc: false,
+        images: {
+            colors: [yf,y2,yfw],
+            delay : 3100
+        },
+
+    },
+    {
+        title: "Guise AI",
+        type: "Machine Learning Engineer/ Jr. Machine Learning Engineer / Intern",
+        year: "Feb 2021 - June 2022",
+        loc: "Rolla Missouri, USA",
+        detail: "Release Manager for the NaviSense Project",
+        maintain_status: "Computer Vision, MLOPs",
+        git: false,
+        web: true,
+        doc: false,
+        weblink: "https://www.guise.ai/",
+        images: {
+            colors :[guise, navisense, gw],
+            delay : 3000,
+        },
+
+    },
+   ]
+
 let allinfo = [].concat(thesisinfo,projectsinfo,hackathoninfo);
 
 
@@ -382,7 +430,7 @@ function IndividProject({data}){
 
 function RadioToggleButton({flags,setflag}){
 
-    let btn_class_all = flags.all?"ToggleButtonsClicked":"ToggleButtons"
+    let btn_class_exp = flags.exp?"ToggleButtonsClicked":"ToggleButtons"
     let btn_class_hack = flags.hack?"ToggleButtonsClicked":"ToggleButtons"
     let btn_class_projects = flags.projects?"ToggleButtonsClicked":"ToggleButtons"
     let btn_class_thesis = flags.thesis?"ToggleButtonsClicked":"ToggleButtons"
@@ -390,26 +438,27 @@ function RadioToggleButton({flags,setflag}){
 
     return (
         <div className='ButtonHandler'>
-                <Button className = {btn_class_all} 
-                onClick={()=>setflag({
-                    "all":true,
-                    "hack":false,
-                    "thesis":false,
-                    "projects":false
-                })} >
-                All
-                </Button>
+              
                 <Button className = {btn_class_thesis} 
                  onClick={()=>setflag({
-                    "all":false,
+                    "exp":false,
                     "hack":false,
                     "thesis":true,
                     "projects":false
                 })}
                 >Research</Button>
+                <Button className = {btn_class_exp} 
+                onClick={()=>setflag({
+                    "exp":true,
+                    "hack":false,
+                    "thesis":false,
+                    "projects":false
+                })} >
+                Experience
+                </Button>
                 <Button className = {btn_class_projects} 
                 onClick={()=>setflag({
-                    "all":false,
+                    "exp":false,
                     "hack":false,
                     "thesis":false,
                     "projects":true
@@ -419,7 +468,7 @@ function RadioToggleButton({flags,setflag}){
                 
                 <Button className ={btn_class_hack} 
                  onClick={()=>setflag({
-                    "all":false,
+                    "exp":false,
                     "hack":true,
                     "thesis":false,
                     "projects":false
@@ -435,9 +484,9 @@ function RadioToggleButton({flags,setflag}){
 function Projects(){
 
     const flagsdefault={
-        "all":true,
+        "exp":false,
         "hack":false,
-        "thesis":false,
+        "thesis":true,
         "projects":false
     }
     const [flags, setflag] = useState(flagsdefault);
@@ -455,8 +504,8 @@ function Projects(){
 
                     {/* <CustomTab/> */}
                 {(()=>{
-                if(flags.all) {
-                    return ( <IndividProject data={allinfo}/>);
+                if(flags.exp) {
+                    return ( <IndividProject data={expinfo}/>);
                         }
                 else if(flags.hack) {
                     return ( <IndividProject data={hackathoninfo}/>);

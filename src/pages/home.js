@@ -14,7 +14,7 @@ function Home(){
             <div className="CentralBox">
                 <div className="Image"/>
                 {/* <div className="Name"><h3>Machine Learning | Web-Dev | DevOps </h3></div> */}
-                <div className="Name"><h3>CS Grad at University of Illinois Urbana Champaign </h3></div>
+                <div className="Name"><h3>CS Grad @ UIUC  </h3></div>
 
                 <div className="Navigation">
                     {/* <div><Link to="/travel">Travel Diary</Link></div>
