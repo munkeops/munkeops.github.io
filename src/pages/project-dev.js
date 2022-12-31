@@ -232,7 +232,7 @@ const thesisinfo=[
             doc: true,
             doclink: "https://github.com/munkeops/Intuitive-Interaction-Methods-for-Smart-Glasses-An-Eye-tracking-Based-Solution/blob/main/Intuitive%20Interaction%20Methods%20for%20Smart%20Glasses-An%20Eye-tracking%20Based%20Solution.pdf",
             images: {
-                colors :[hci4, hci1, hci2, hci3],
+                colors :[hci4, hci1, hci2],
                 delay : 2900,
             },
 

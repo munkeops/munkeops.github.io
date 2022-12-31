@@ -195,7 +195,7 @@
         background-color: coral;
         border-width: 0px;
         box-shadow: black;
-        margin-right: 5px; 
+        margin-right: 1px; 
         /* margin-left: 5px; */ 
     
         
@@ -208,7 +208,7 @@
     margin: auto;
     background-color: tomato;
     border-width: 0px;
-    margin-right: 5px;
+    margin-right: 1px;
     /* margin-left: 5px; */
 
 }
