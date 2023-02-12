@@ -34,7 +34,7 @@ function Home(){
 
                     {/* <div><Link to="/About">About</Link></div> */}
                     
-                    <div><a href="https://github.com/munkeops/Resume/blob/main/Resume_dec23.pdf" target="_blank"  className='link'><img src="https://img.icons8.com/bubbles/50/000000/resume.png"/></a></div>
+                    <div><a href="https://github.com/munkeops/Resume/blob/main/Resume.pdf" target="_blank"  className='link'><img src="https://img.icons8.com/bubbles/50/000000/resume.png"/></a></div>
 
                     {/* <div><a href="https://github.com/munkeops/Resume/blob/main/Resume.pdf" target="_blank"  className='link'>Resume</a></div> */}
 
