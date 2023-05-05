@@ -4,6 +4,6 @@ in cases of issues with install and build do the following -
 
     npm install --legacy-peer-deps
 
-- export NODE_OPTIONS=--openssl-legacy-provider
+- fix node version issues
 
-    fix node version issues
+    export NODE_OPTIONS=--openssl-legacy-provider

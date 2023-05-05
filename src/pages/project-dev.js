@@ -61,6 +61,12 @@ import yf from "../images/yummy_future.png"
 import yfw from "../images/yummyweb.jpg"
 import y2 from "../images/yummy2.jpg"
 
+import bp1 from "../images/biped1.jpg"
+import bp2 from "../images/biped2.jpg"
+import bp3 from "../images/biped3.jpg"
+
+
+
 
 
 
@@ -183,6 +189,25 @@ const allinfo2=[
 
 const projectsinfo=[
     {
+        title: "Autonomous and Remote control Biped",
+        type: "Project",
+        year: "2023",
+        loc: "Embedded Systems, UIUC",
+        detail: "Self balancing Two wheel robot (Biped) with computer vision and remote control capabalities",
+        maintain_status: "Currently not maintained",
+        git: false,
+        web: false,
+        doc: true,
+        // weblink: "https://poke2se.herokuapp.com",
+        // gitlink: "https://github.com/munkeops/Poke2",
+        doclink: "https://github.com/munkeops/Autonomous-and-Remote-Control-Biped/blob/main/AutonomousRCBiped.pdf",
+        images: {
+            colors: [bp1, bp2, bp3],
+            delay : 2900
+        },
+    
+    },
+    {
         title: "Poke2",
         type: "Project",
         year: "2020",
@@ -196,7 +221,7 @@ const projectsinfo=[
         gitlink: "https://github.com/munkeops/Poke2",
         images: {
             colors: [poke2img,pk2,pk3],
-            delay : 2900
+            delay : 3000
         },
     },
     {
@@ -213,10 +238,11 @@ const projectsinfo=[
         gitlink: "https://github.com/munkeops/Poke2",
         images: {
             colors: [cb1,cb2,cb3],
-            delay : 2900
+            delay : 3100
         },
     
-    },]
+    },
+    ]
 
 const thesisinfo=[
         {
@@ -228,9 +254,10 @@ const thesisinfo=[
             detail: "Research-Paper on the usage of eye tracking for HCI in the XR space",
             maintain_status: "Unofficial Copy",
             git: false,
-            web: false,
+            web: true,
             doc: true,
             doclink: "https://github.com/munkeops/Intuitive-Interaction-Methods-for-Smart-Glasses-An-Eye-tracking-Based-Solution/blob/main/Intuitive%20Interaction%20Methods%20for%20Smart%20Glasses-An%20Eye-tracking%20Based%20Solution.pdf",
+            weblink: "https://cs.illinois.edu/news/features/soltanaghais-course-smart-cities-homes-and-beyond-leads-to-a-smart-classroom",
             images: {
                 colors :[hci4, hci1, hci2],
                 delay : 2900,
